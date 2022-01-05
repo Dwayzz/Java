@@ -1,0 +1,62 @@
+
+body {
+  background-color: #78cee6b7;
+  color: #333333;
+  
+}
+.btn-green {
+  border-color: #317956;
+  background: transparent;
+  color: #317956;
+}
+.btn-green:hover {
+  background: #317956;
+  color: #333333;
+}
+.form-control {
+  border-color: #317956;
+}
+
+.feedback {
+  display: none;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.complete-item {
+  color:#317956;
+}
+.complete-item:hover {
+  color: #317956;
+}
+.edit-item {
+  color: #11b5e4;
+}
+.edit-item:hover {
+  color:#11b5e4;
+}
+.delete-item {
+  color:#d62828;
+}
+.delete-item:hover {
+  color: #d62828;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.visibility {
+  opacity: 0.5;
+}
+.showItem {
+  display: block;
+}
+footer {
+text-align: center;
+color: #333333;
+}
